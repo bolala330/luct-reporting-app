@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "LUCT Faculty Reporting",
+    "slug": "luct-reporting-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0f0f0f"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "edu.luct.reporting"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f0f0f"
+      },
+      "package": "edu.luct.reporting"
+    },
+    "extra": {
+      "firebaseApiKey": "YOUR_API_KEY",
+      "firebaseAuthDomain": "YOUR_PROJECT.firebaseapp.com",
+      "firebaseProjectId": "YOUR_PROJECT_ID",
+      "firebaseStorageBucket": "YOUR_PROJECT.appspot.com",
+      "firebaseMessagingSenderId": "YOUR_SENDER_ID",
+      "firebaseAppId": "YOUR_APP_ID"
+    }
+  }
+}
